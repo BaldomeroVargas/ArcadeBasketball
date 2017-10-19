@@ -1,8 +1,8 @@
-#Arcade Basketball
+# Arcade Basketball
 
 The following project was programmed in C with the Atmel Studio 6.2 IDE.
 
-####Notable Components Used
+#### Notable Components Used
 
 - 16X2 LCD Display: Controls instructions to player. Also displays score.
 - 7 Segment Displays: Used for countdown time and for game logic (daisy chained together for saving PINS on the microcontroller).
@@ -13,7 +13,7 @@ The following project was programmed in C with the Atmel Studio 6.2 IDE.
 - 74HC595 Shift Registers: Used to maximize PIN usage on the micro controller.
 - ATmega1284 Micro Controller: Controls the entire project.  
 
-####Project Description
+#### Project Description
 
 In this project the single ATmega1284 is used to do all the logic needed. It controls all the components with the use of shift registers to maximize PIN output. The components do as listed above and working together with the help of a provided Task Scheduler coding outline provided in the Lab portion of the course. Descriptions of the game modes are stated below.
  
@@ -23,7 +23,7 @@ Game mode 2 (Horse version “Bit”): Here the user is playing a friend in whom
  
 In both games modes a user can push the 4th button “R” which is a soft reset. Here everything is reset and the basket moves to the original position with all the scores being reset.
 
-####Video Link
+#### Video Link
 Here is a YouTube link to see how the project actually works.
 
 https://www.youtube.com/watch?v=twQz8b-qCdU&feature=youtu.be
